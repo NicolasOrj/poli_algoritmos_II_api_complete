@@ -1,10 +1,10 @@
 # app.py
-from flask import Flask, jsonify # Json JavaScript Object notation
+from flask import Flask, jsonify
 from config import db, DATABASE_URI
 from routes.estudiante_routes import estudiante_bp
 from routes.curso_routes import curso_bp
 from routes.profesor_routes import profesor_bp
-from flask_cors import CORS  # Importa CORS - Permiten segura entre frontEnd y el backEnd
+from flask_cors import CORS  # Importa CORS
 
 app = Flask(__name__)
 

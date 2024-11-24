@@ -1,4 +1,4 @@
-from flask_sqlalchemy import SQLAlchemy # Alchemy ORM - Object Relation Managent
+from flask_sqlalchemy import SQLAlchemy
 
 # Variables para la configuración
 DB_USERNAME = 'root'
